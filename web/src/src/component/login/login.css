@@ -1,0 +1,15 @@
+.login-background {
+  background: #eee;
+  height: 100%;
+  padding-top: 200px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 10px;
+  margin: auto;
+}

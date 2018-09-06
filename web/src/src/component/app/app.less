@@ -1,0 +1,58 @@
+.app-container {
+  height: 100%;
+  .app-topbar {
+    box-sizing: border-box;
+    background: black;
+    height: 52px;
+    cursor: pointer;
+    .app-worldtitle {
+      font-size: 30px;
+      font-weight: 500;
+      color: white;
+      line-height: 52px;
+    }
+    .app-operation {
+      float: right;
+      line-height: 52px;
+    }
+  }
+  .app-content {
+    position: relative;
+    height: calc(~"100% - 52px");
+    .app-editor {
+      display: flex;
+      height: 100%;
+      .app-sidebar {
+        flex: 0;
+        display: flex;
+      }
+      .app-viewer {
+        flex: 1;
+        padding: 20px;
+        overflow: hidden;
+        .app-viewer-title {
+          height: 30px;
+        }
+        .app-viewer-content {
+          height: calc(~"100% - 30px")
+        }
+      }
+    }
+    .app-worldmap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 0px;
+      transition: 0.42s;
+      z-index: 42;
+      background: black;
+      overflow: hidden;
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+
+#root {
+  height: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f20 {
+  font-size: 20px;
+}

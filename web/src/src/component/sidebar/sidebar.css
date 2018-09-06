@@ -1,0 +1,41 @@
+.side-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.side-container {
+  position: relative;
+  height: 100%;
+  width: 400px;
+  border-right: 1px solid #eee;
+  overflow: auto;
+}
+
+.side-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.side-item-drag {
+  border-bottom: 3px solid #aaa;
+}
+
+.side-item-icon {
+  font-size: 18px !important;
+  color: dodgerblue;
+}
+
+.active-item {
+  background: #eee;
+}
+
+.add-button {
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+}

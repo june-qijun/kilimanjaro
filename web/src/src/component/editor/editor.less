@@ -1,0 +1,35 @@
+.editor-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  .md-preview {
+    position: relative;
+    width: 49%;
+    border: none;
+    overflow: auto;
+    transition: 0.5s;
+    .expand-btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+  .editor-seperator {
+    border-left: 1px solid #eee;
+  }
+  .editor {
+    box-sizing: border-box;
+    height: 100%;
+    width: 49%;
+    border: none;
+    cursor: text;
+    resize: none;
+  }
+  .editor:focus {
+    border-color: rgb(77, 144, 254);
+    outline: none;
+  }
+}
